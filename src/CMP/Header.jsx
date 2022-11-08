@@ -23,7 +23,7 @@ function Header() {
             Biggest <br /> Jobhunting <br /> Opportunities
           </h1>
           <div className="flex items-center ">
-       <div  className="h-[45px] w-[160px] rounded-full flex items-center bg-[#6052ce]" >
+       <div  className="h-[45px] w-[160px] cursor-pointer rounded-full flex items-center bg-[#6052ce]" >
        <div  className="h-[45px] w-[45px] rounded-full flex justify-center items-center bg-[#f8679e]"> 
       <a 
             href="https://docs.google.com/forms/d/e/1FAIpQLSf_tjj-8E1-CEKtC_0KSvW-Xv3cQ4r2Z7Lmjrp__qZgxCG5aw/viewform?usp=sf_link">
@@ -39,7 +39,7 @@ function Header() {
               <div  className="h-[53px] w-[53px] rounded-full flex justify-center items-center bg-[#643a8e]" >
               <div  className="h-[35px] w-[35px] rounded-full flex justify-center items-center bg-[#f8679e]
               border border-solid border-[#6052ce]" >
-              <BiMapPin className="text-2xl font-semibold"></BiMapPin>
+              <BiMapPin className="text-2xl cursor-pointer font-semibold"></BiMapPin>
               </div>
               </div>
                <p className="ml-2">Bab Ezzouar 16111</p>

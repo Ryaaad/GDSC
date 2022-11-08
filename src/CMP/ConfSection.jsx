@@ -25,7 +25,7 @@ function ConfSection() {
           make the job your prey by learning ,promoting yourself <br />
           and getting to know tasty secrets behind job recrutement .
         </p>
-        <div  className="h-[45px] mt-4 flex items-center" >
+        <div  className="h-[45px] cursor-pointer mt-4 flex items-center" >
        <div  className="h-[45px] w-[45px] rounded-full flex justify-center items-center bg-[#f8679e]"> 
       <a 
         href="https://docs.google.com/forms/d/e/1FAIpQLSf_tjj-8E1-CEKtC_0KSvW-Xv3cQ4r2Z7Lmjrp__qZgxCG5aw/viewform?usp=sf_link">
