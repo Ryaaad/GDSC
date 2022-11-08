@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Clippath{
+    clip-path: polygon(0% 0%, 0 100%, 100% 88%, 100% 0%);
+}
+.Clippath2{
+    clip-path: polygon(100% 0, 100% 69%, 54% 96%, 0 89%, 0 0);
+}

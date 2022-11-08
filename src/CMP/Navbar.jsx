@@ -1,49 +1,33 @@
-import { useState } from "react";
-import LOGO from "../assets/LOGO.png";
 
+import { IoTicketSharp } from "react-icons/io5";
+import {  BiSearchAlt2 } from "react-icons/bi";
+import NavB from "../assets/NavB.png"
 function Navbar() {
-  const [count, setCount] = useState(0);
 
   return (
-    <div className="bg-bgcolor ">
-      <div className="flex justify-between  mx-40 text-white py-5">
-        <div>
-          <img
-            src={LOGO}
-            alt="logo"
-            className="h-[100px] w-[150px] mt-[-20px] "
-          />
+      <div className="flex justify-between bg-[#3a3089] items-center px-[140px] text-white py-5">
+        <h1 className="text-2xl uppercase font-semibold">Job<span 
+        className="text-[#f8679e]">Hunting</span></h1>
+
+       <ul className="flex gap-6 items-center relative font-[500]">
+        <li>About</li>
+        <li>Event</li>
+        <li>Speakers</li>
+        <li>News</li>
+        <li>Contact</li>
+        <img src={NavB} className="absolute top-[-100%] right-[-30%] w-[70px] " />
+       </ul>
+
+       <div className="flex gap-4 items-center" >
+       <BiSearchAlt2 className="text-3xl font-semibold" ></BiSearchAlt2>
+       <div className="rounded-full text-sm font-semibold cursor-pointer border-white flex border-2 border-solid p-2
+        px-5 gap-2 items-center" >
+       <IoTicketSharp  className="text-2xl text-[#f8679e] font-semibold"></IoTicketSharp>
+       Book now
+       </div>
+       </div>
         </div>
-        <div className="flex justify-between items-center mt-[-30px]">
-          <div>
-            <ul className="flex justify-between ">
-              <li className="mx-10">
-                <a href="#">About</a>
-              </li>
-              <li className="mx-5">
-                <a href="#">Event</a>
-              </li>
-              <li className="mx-10">
-                <a href="#">Speakers</a>
-              </li>
-              <li className="mx-10">
-                <a href="#">News</a>
-              </li>
-              <li className="mx-10">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <button className="py-1 px-4 bg-hoverbg text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_tjj-8E1-CEKtC_0KSvW-Xv3cQ4r2Z7Lmjrp__qZgxCG5aw/viewform?usp=sf_link">
-                Sign up
-              </a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+  
   );
 }
 

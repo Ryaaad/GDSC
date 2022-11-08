@@ -22,7 +22,7 @@ const Planning = () => {
         ,{id:4,time:"15:00-15:30",title:"Ending ceremony  ", body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ut fugit nostrum quod expedita in!"}]   
   
         return ( 
-        <div  className="px-12 h-[90vh] py-5">
+        <div  className="px-12 h-[95vh] pb-10">
             <div className="mb-6">
             <h1 className="text-[#f8679e]  font-bold ">Eventea </h1>
             <h1  className="text-[#343947] text-3xl font-extrabold " >List of The Planned Activities <br /> In Jobhunting </h1>      
@@ -31,14 +31,14 @@ const Planning = () => {
           <div className="flex relative gap-12 ">
           <div className="text-white" >
                 <div  className={`w-[400px] flex flex-col justify-center items-center
-                h-[90px] ${first ?" bg-[#E9D107]" :" bg-[#01B9EF]" } cursor-pointer`}
+                h-[90px] ${first ?" bg-[#f5649c]" :" bg-[#3a3089]" } cursor-pointer`}
                 onClick={()=>setfirst(true)}
                 >
                 <h1 className="text-xl">Day 01</h1>
                 <p> Lorem ipsum dolor sit amet consectetur. </p>
                  </div>
                  <div className={`w-[400px] flex flex-col justify-center items-center
-                h-[90px] ${!first ?" bg-[#E9D107]" :" bg-[#01B9EF]" } cursor-pointer`}
+                h-[90px] ${!first ?" bg-[#f5649c]" :" bg-[#3a3089]" } cursor-pointer`}
                 onClick={()=>setfirst(false)}
                 >
                 <h1 className="text-xl">Day 02</h1>
